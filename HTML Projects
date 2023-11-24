@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frederick Douglass Tribute Page</title>
+  <style>
+    body {
+      background-color: #00CC33;
+      color: white;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      margin-top: 100px;
+      margin-bottom: 150px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    .grid-container {
+  display: flex;
+  justify-content: space-around; /* or space-between for more space between the items */
+  align-items: center;
+  margin: 0 auto;
+}
+
+.grid-item {
+  border: 1px solid black;
+  height: 600px;
+  width: 600px;
+  min-width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+
+    footer {
+      margin-top: 150px;
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+    }
+
+    footer a {
+      color: white;
+    }
+
+    video {
+      height: 300px;
+      margin: auto;
+      display: block; /* Ensures margin: auto; works properly */
+    }
+    p,
+    header,
+    li,
+    h2{
+      margin-left: 15px;
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <h1>Frederick Douglass</h1>
+    <p>Abolitionist, Writer, Orator</p>
+  </header>
+
+  <video controls autoplay muted loop
+  style="height: 300px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;">
+    <source src="Vids/The Life of Frederick Douglass.mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="grid-container">
+    <div class="grid-item">
+      <section id="intro">
+        <h2>Overview</h2>
+        <p>
+          
+Frederick Douglass, a towering figure in the 19th-century abolitionist 
+movement, is primarily celebrated for his impassioned abolitionist activism, 
+mesmerizing oratorical prowess, and influential roles in the realm of 
+literature and journalism. As a fervent advocate for the immediate 
+emancipation of slaves, Douglass's compelling speeches, notably 
+encapsulated in his autobiographical work "Narrative of the Life of Frederick 
+Douglass," brought to light the brutal realities of slavery and played a 
+pivotal role in galvanizing support for the anti-slavery cause.
+        </p>
+      </section>
+    </div>
+
+    <div class="grid-item">
+      <section id="achievements">
+        <h2>Achievements</h2>
+        1. <strong>Autobiography: "Narrative of the Life"</strong>
+   <ul>
+       <li>Published 1845</li>
+       <li>Revealed harsh realities of slavery</li>
+       <li>Influential in abolitionist movement</li>
+       <li>Showcased Douglass's literary prowess</li>
+   </ul>
+
+2. <strong>Advisor to President Lincoln:</strong>
+   <ul>
+       <li>Civil War collaboration</li>
+       <li>Influenced Emancipation Proclamation</li>
+       <li>Critical discussions on slavery</li>
+       <li>Impact on African American enlistment</li>
+   </ul>
+
+3. <strong>Women's Suffrage Advocate:</strong>
+   <ul>
+       <li>Seneca Falls Convention participant</li>
+       <li>Endorsed Declaration of Sentiments</li>
+       <li>Supported by prominent suffragists</li>
+       <li>Recognized interconnected struggles for equality</li>
+   </ul>
+      </section>
+    </div>
+
+    <div class="grid-item">
+      <section id="legacy">
+        <h2>Legacy</h2>
+      <p>
+          <strong> Literary Legacy:</strong>
+          Frederick Douglass's literary impact endures, with his eloquent prose in the "Narrative" influencing the discourse on human rights and equality. His writings, a catalyst for abolitionism, continue to be studied for their historical significance in shaping conversations about race, freedom, and justice.
+      </p>
+      
+      <p>
+          <strong> Inspiration for Future Generations:</strong>
+          Frederick Douglass's life story is a perennial source of inspiration, underscoring human resilience and the ability to effect positive change. From enslavement to statesmanship, Douglass's legacy serves as a beacon for those in the ongoing struggle for civil rights and social justice, encouraging courage, advocacy against injustice, and the pursuit of a more equitable world.
+      </p>
+      </section>
+    </div>
+  </div>
+
+  <footer>
+    <p>Learn more about Frederick Douglass at <a href="https://en.wikipedia.org/wiki/Frederick_Douglass" target="_blank">https://en.wikipedia.org/wiki/Frederick_Douglass</a>.</p>
+  </footer>
+
+</body>
+</html>
